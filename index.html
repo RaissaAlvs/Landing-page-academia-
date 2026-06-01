@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Academia</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <h2 class="logo">FitLife</h2>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="overlay">
+        <div class="hero-content animate">
+            <h1>Transforme Seu Corpo e Sua Saúde</h1>
+            <p>Treinos personalizados, equipamentos modernos e acompanhamento profissional.</p>
+            <a href="#planos" class="btn btn-hero">Conheça os Planos</a>
+        </div>
+    </div>
+</section>
+
+<section id="sobre" class="sobre animate">
+    <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>A FitLife é uma academia moderna que oferece musculação, cardio, aulas coletivas e acompanhamento especializado para você alcançar seus objetivos.</p>
+    </div>
+</section>
+
+<section id="planos" class="planos animate">
+    <h2>Nossos Planos</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3>Básico</h3>
+            <p class="preco">R$ 79,90</p>
+            <ul>
+                <li>Musculação</li>
+                <li>Acesso Livre</li>
+                <li>Treino Inicial</li>
+            </ul>
+            <button class="btn btn-card" onclick="assinar('Básico')">Assinar</button>
+        </div>
+
+        <div class="card destaque">
+            <h3>Premium</h3>
+            <p class="preco">R$ 129,90</p>
+            <ul>
+                <li>Musculação</li>
+                <li>Aulas Coletivas</li>
+                <li>Avaliação Física</li>
+            </ul>
+            <button class="btn btn-card" onclick="assinar('Premium')">Assinar</button>
+        </div>
+
+        <div class="card">
+            <h3>VIP</h3>
+            <p class="preco">R$ 189,90</p>
+            <ul>
+                <li>Tudo do Premium</li>
+                <li>Personal Trainer</li>
+                <li>Consultoria Nutricional</li>
+            </ul>
+            <button class="btn btn-card" onclick="assinar('VIP')">Assinar</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="beneficios" class="beneficios animate">
+    <h2>Por que escolher a FitLife?</h2>
+    <div class="beneficios-grid">
+        <div>🏋️ Equipamentos Modernos</div>
+        <div>💪 Treinos Personalizados</div>
+        <div>🥗 Suporte Nutricional</div>
+        <div>📍 Localização Privilegiada</div>
+    </div>
+</section>
+
+<section class="depoimentos animate">
+    <h2>Depoimentos</h2>
+    <div class="depoimento">
+        "Perdi 12kg em 6 meses e ganhei muito mais disposição!" <strong>- Carlos</strong>
+    </div>
+    <div class="depoimento">
+        "Ambiente excelente e profissionais muito qualificados." <strong>- Juliana</strong>
+    </div>
+</section>
+
+<section id="contato" class="contato animate">
+    <h2>Solicite um Contato</h2>
+    <form id="formContato">
+        <input type="text" placeholder="Seu Nome" required>
+        <input type="email" placeholder="Seu E-mail" required>
+        <button type="submit" class="btn btn-card">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 FitLife Academia - Todos os direitos reservados.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

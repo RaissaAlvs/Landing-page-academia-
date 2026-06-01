@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:20px 0;
+    position:fixed;
+    width:100%;
+    z-index:999;
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48') center/cover;
+    height:100vh;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.6);
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-content{
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:3rem;
+}
+
+.hero-content p{
+    margin:20px 0;
+}
+
+.btn{
+    background:#ff6600;
+    padding:15px 30px;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+section{
+    padding:90px 20px;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.sobre p{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:300px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.destaque{
+    border:3px solid #ff6600;
+}
+
+.preco{
+    font-size:2rem;
+    font-weight:bold;
+    color:#ff6600;
+    margin:15px 0;
+}
+
+.card ul{
+    list-style:none;
+    margin:20px 0;
+}
+
+.card li{
+    margin:10px 0;
+}
+
+.card button{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.beneficios-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.beneficios-grid div{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.depoimentos{
+    background:#111;
+    color:white;
+}
+
+.depoimento{
+    max-width:700px;
+    margin:20px auto;
+    text-align:center;
+}
+
+.contato form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input{
+    padding:15px;
+}
+
+.contato button{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:15px;
+    cursor:pointer;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+    nav ul{
+        gap:12px;
+        font-size:14px;
+    }
+
+    .hero-content h1{
+        font-size:2rem;
+    }
+
+}
