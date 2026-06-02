@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<nav>
+    <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#modalidades">Modalidades</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -43,42 +53,29 @@
     </div>
 </section>
 
-<section id="planos" class="planos animate">
+<section id="planos">
     <h2>Nossos Planos</h2>
+
     <div class="cards">
-
         <div class="card">
-            <h3>Básico</h3>
-            <p class="preco">R$ 79,90</p>
-            <ul>
-                <li>Musculação</li>
-                <li>Acesso Livre</li>
-                <li>Treino Inicial</li>
-            </ul>
-            <button class="btn btn-card" onclick="assinar('Básico')">Assinar</button>
-        </div>
-
-        <div class="card destaque">
-            <h3>Premium</h3>
-            <p class="preco">R$ 129,90</p>
-            <ul>
-                <li>Musculação</li>
-                <li>Aulas Coletivas</li>
-                <li>Avaliação Física</li>
-            </ul>
-            <button class="btn btn-card" onclick="assinar('Premium')">Assinar</button>
+            <h3>Plano Básico</h3>
+            <p>Acesso à musculação.</p>
+            <p><strong>R$ 89,90/mês</strong></p>
         </div>
 
         <div class="card">
-            <h3>VIP</h3>
-            <p class="preco">R$ 189,90</p>
-            <ul>
-                <li>Tudo do Premium</li>
-                <li>Personal Trainer</li>
-                <li>Consultoria Nutricional</li>
-            </ul>
-            <button class="btn btn-card" onclick="assinar('VIP')">Assinar</button>
+            <h3>Plano Premium</h3>
+            <p>Musculação + todas as modalidades.</p>
+            <p><strong>R$ 129,90/mês</strong></p>
         </div>
+
+        <div class="card">
+            <h3>Plano VIP</h3>
+            <p>Acesso completo + acompanhamento especializado.</p>
+            <p><strong>R$ 179,90/mês</strong></p>
+        </div>
+    </div>
+</section>
 
     </div>
 </section>
@@ -120,3 +117,70 @@
 
 </body>
 </html>
+<section id="modalidades">
+    <h2>Nossas Modalidades</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🏋️ Musculação</h3>
+            <p>Treinos para ganho de massa muscular, emagrecimento e condicionamento físico.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏃 Funcional</h3>
+            <p>Exercícios dinâmicos para melhorar força e resistência.</p>
+        </div>
+
+        <div class="card">
+            <h3>🥊 Muay Thai</h3>
+            <p>Desenvolvimento físico e disciplina através das artes marciais.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧘 Pilates</h3>
+            <p>Melhora da postura, flexibilidade e fortalecimento muscular.</p>
+        </div>
+
+        <div class="card">
+            <h3>💃 Zumba</h3>
+            <p>Aulas divertidas que combinam dança e exercícios aeróbicos.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚴 Bike Indoor</h3>
+            <p>Treinos intensos para condicionamento cardiovascular.</p>
+        </div>
+    </div>
+</section>
+
+<section id="galeria">
+    <h2>Nossa Estrutura</h2>
+
+    <div class="galeria">
+        <img src="img/academia1.jpg" alt="Academia">
+        <img src="img/academia2.jpg" alt="Equipamentos">
+        <img src="img/funcional.jpg" alt="Funcional">
+        <img src="img/pilates.jpg" alt="Pilates">
+        <img src="img/muaythay.jpg" alt="Muay Thai">
+        <img src="img/recepcao.jpg" alt="Recepção">
+    </div>
+</section>
+
+<section id="localizacao">
+    <h2>Onde Estamos</h2>
+
+    <p>
+        📍 Rua Uirapuru, 950<br>
+        Centro - Arapongas/PR<br>
+        CEP: 86700-130
+    </p>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb="
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</section>
